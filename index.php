@@ -5,7 +5,7 @@ $Browser_ver = "iChunQiu Browser 2018.R3.16229"; //允许访问的浏览器 & VE
 $Tips1       = "You should use [" . $Browser_ver . "] to view this page !"; //提示语1
 $Tips2       = "Your IP Address Are Not Allow To Connect, Please Use Privacy IP !"; //提示语2
 $Tips3       = "You Not Say Magic_Code!";
-$Tips4       = "You Not Magic_Code Is Wrong!";
+$Tips4       = "You Magic_Code Is Wrong!";
 echo "<script src=\"/js/jquery-3.3.1.min.js\" type=\"text/javascript\"></script>";
 echo "<script src=\"/js/console.js\" type=\"text/javascript\"></script>";
 echo "<!--
@@ -68,3 +68,4 @@ if ($UA != 'iChunQiu Browser 2018.R3.16229') //判断浏览器UA
 }else {
     include 'Vm1wR1lWbFhSbkpOVm1oVFYwZG9jVlZ0TVRSaFJuQllZMFZLVUZWVU1Eaz0.php';
 }
+?>
